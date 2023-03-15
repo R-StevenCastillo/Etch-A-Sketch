@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100vh;
+    gap: 1em;
+}
+
+#grid-container {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    height: 600px;
+    width: 600px;
+    
+}
