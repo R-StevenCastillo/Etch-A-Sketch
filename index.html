@@ -17,7 +17,7 @@
     <div class="modal" id="modal">
         <div class="modal-inner">
             <h2>How many pixels do you want?</h2>
-            <input type="text" id="cells" 
+            <input type="text" id="cells" maxlength="2"
             onkeypress="if (isNaN(String.fromCharCode(event.keyCode))) return false;" placeholder="16">
             <button id="close-modal">Create</button>
         </div>
