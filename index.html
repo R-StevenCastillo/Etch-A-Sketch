@@ -10,13 +10,23 @@
 <body>
 
     <h1>Etch a Sketch</h1>
+    <div class="button-container">
+        <button class="button" id="reset-button">Reset</button>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-inner">
+            <h2>How many pixels do you want?</h2>
+            <input type="text" id="cells" 
+            onkeypress="if (isNaN(String.fromCharCode(event.keyCode))) return false;" placeholder="16">
+            <button id="close-modal">Create</button>
+        </div>
+    </div>
 
     <div class="grid-warpper">
         <div id="grid-container">
         </div>
     </div>
-
-    
 
     <script src="main.js"></script>
 </body>
