@@ -1,3 +1,3 @@
 # Etch-A-Sketch
 
-This project is part of the Foundation Course from The Odin Project
+Este proyecto, desarrollado en JavaScript, HTML y CSS, es un ejercicio de recreación del clásico Etch-a-Sketch de manera digital
